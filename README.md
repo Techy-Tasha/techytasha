@@ -1,1 +1,3 @@
 # techytasha
+
+[(techytasha.com)]

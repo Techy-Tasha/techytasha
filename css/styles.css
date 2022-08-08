@@ -4,6 +4,13 @@ body,html{
 }
 
 .index{
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
     text-align: center;
 }
 
@@ -17,5 +24,4 @@ body,html{
 }
 
 article{
-    text-align: center;
 }
