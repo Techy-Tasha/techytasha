@@ -8,104 +8,106 @@
     <title>Blog</title>
 </head>
 <body>
-    <header class="blog">
-        <h1>Techy Tasha</h1>
-        <nav class="blognav"></nav>
-    </header>
-    <main class="">
-        <!-- <article class=''> -->
-            <!-- <h2>{{title }}</h2> -->
-            <!-- <div class='byline'> -->
-            <!-- <h3>Published</h3> -->
-            <!-- <p>{{ page.date |  date: '%d %B %Y' }}</p> -->
-            <!-- </div> -->
-            <!-- {{ content }} -->
-        <!-- </article> -->
+    <div class="blog">
+        <header class="blogheader">
+            <h1>Techy Tasha</h1>
+            <nav class="blognav"></nav>
+        </header>
+        <main class="">
+            <!-- <article class=''> -->
+                <!-- <h2>{{title }}</h2> -->
+                <!-- <div class='byline'> -->
+                <!-- <h3>Published</h3> -->
+                <!-- <p>{{ page.date |  date: '%d %B %Y' }}</p> -->
+                <!-- </div> -->
+                <!-- {{ content }} -->
+            <!-- </article> -->
 
-        <article>
-            <h2 class="title">Progress & Possibility</h2>
-            <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8114gbt7bmcs36lot17q.jpg" alt="coding image"
-                width="100%">
-            <div class="byline">
-                <h3>Published</h3>
-                <p>25 July 2022</p>
-            </div>
-            <div class="post">
-                <p>Today I worked on creating my development environment; this includes setting up my Terminal and learning basic shell (bash) commands.</p><br>
-                <p>Command Reference</p>
-                <ul class=>
-                    <li>pwd - print working directory</li>
-                    <li>ls - list everything inside the current directory</li>
-                    <li>ls -l - lists directory vertically, and alphabetically, also shows permissions, date and file creator, and more.</li>
-                    <li>cd ~ - takes me back to the home directory</li>
-                    <li>chmod - adjusts permissions</li>
-                    <li>mkdir - make a new directory</li>
-                    <li>touch - create a new file</li>
-                    <li>rm - delete file</li>
-                    <li>rm-r  - remove directory and all files</li>
-                    <li>mv - move</li>
-                    <li>cp - copy</li>
-                </ul>
-
-                <h4>Learnings and Git Shenanigans</h4>
-                <p>This enabled me to move through directories and navigate the terminal. I also reinforced my wifi and device security in order to prevent being hacked easily. Then I connected my VScode to Github and Microsoft in order to push commits from my local environment to Github.  Allowing me to get those coveted green squares :laughing:.</p><br> 
-                
-                <p>The VScode connection to my Microsoft account allows me to remotely pair with other developers. Lastly, I learned the lingo, ie directory = file. I decided to pack it up for the day and throw the laptop out the window when I discovered I don’t have Git downloaded on my local computer.</p>
-                <img src="https://media.giphy.com/media/gHhz5ZqkY8rzyWUiKw/giphy.gif">
-            </div>
-        </article>
-        
-        <article>
-            <h2 class="title">Commit Early & Often</h2>
-            <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v2cv1prrcbacnum9z8r9.jpg" alt="man with head in hands"
-                width="100%">
-            <div class='byline'>
-                <h3>Published</h3>
-                <p>26 July 2022</p>
-            </div>
-            <div class="post">
-            <p>Today started with debugging git error from yesterday.  I did this by checking the logs. Inside the log discovered I need to insert the information below using the following commands:</p><br>
-            <p>git config --global user.email "[you@example.com](mailto:you@example.com)"</p><br>
-            <p>git config --global [user.name](http://user.name/) "Your Name"</p><br>
-            <p>Miraculously this worked!  This was my first foray into deciphering the information to find what is relevant to the problem and then researching and applying the solution.  i.e.: googling the whole error message :sweat: .  So, now I know what debugging is and how to do it :laughing:
-                </p><br>
-            <p>Despite my plans for the day, this led to looking into the base differences between Git and Github.  Git is how I manage my code locally and Github is an application that moves the code from my local device, online.   From there I went down the Git rabbit hole, I quickly realized how expansive Github is.  I learned that while I am curious, I am not THAT curious…it works, imma move on.  I ended up renaming my default branch from Master to Main, how I found myself there, I don't know, I started with rabbit hole right?</p>
-
-            <h4>Rabbit Hole Diaries</h4>
-            <img src="https://c.tenor.com/8z-Upx6ev6cAAAAM/running-home.gif">
-
-            <p>Task: Move files from one directory to another.</p><br>
-
-            <p>Result: …cd, ls, cd, ls, cd, ls….google…this looks good…cp -r…yup, that's it…cd, ls, cd, ls….where are the files?  whelp, I lost the files….time to wrap it up….wait, why are they on my desktop…:boom:</p><br>
-
-            <p>    well, now that I found the files… I quickly exited the terminal and dragged and dropped the files where I need them to be. </p>
-            <img src="https://thumbs.gfycat.com/GeneralScentedIndianglassfish-size_restricted.gif">
-
-
-            <h4>Back on Track</h4>
-
-            <p>Now, I was finally able to move the files from my local device to Github.</p>
-            <ol>
-                <li>created the repo in github with .readme</li>
-                <li>cloned repo to local directory (git clone xyz)</li>
-                <li>made changes in local directory </li>
-                <li>pushed changes to Github</li>
-                    <ul>
-                        <li>committed local code to GitHub through the command line. did this by using:</li>
-                            <ol>
-                                <li>git init - b main (Initialize the local directory as a Git repository.)</li>
-                                <li>git add . (gets files ready to move)</li>
-                                <li>git commit -m “first commit” (adding files to local git)</li>
-                                <li>git push origin main (pushes files to github)</li>
-                            </ol>
+            <article>
+                <h2 class="title">Progress & Possibility</h2>
+                <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8114gbt7bmcs36lot17q.jpg" alt="coding image"
+                    width="100%">
+                <div class="byline">
+                    <h3>Published</h3>
+                    <p>25 July 2022</p>
+                </div>
+                <div class="post">
+                    <p>Today I worked on creating my development environment; this includes setting up my Terminal and learning basic shell (bash) commands.</p><br>
+                    <p>Command Reference</p>
+                    <ul class=>
+                        <li>pwd - print working directory</li>
+                        <li>ls - list everything inside the current directory</li>
+                        <li>ls -l - lists directory vertically, and alphabetically, also shows permissions, date and file creator, and more.</li>
+                        <li>cd ~ - takes me back to the home directory</li>
+                        <li>chmod - adjusts permissions</li>
+                        <li>mkdir - make a new directory</li>
+                        <li>touch - create a new file</li>
+                        <li>rm - delete file</li>
+                        <li>rm-r  - remove directory and all files</li>
+                        <li>mv - move</li>
+                        <li>cp - copy</li>
                     </ul>
-            </ol>
 
-            <p>Whew, what a day…I think I'm going to roll over the rest of the to-do list to tomorrow.</p>
+                    <h4>Learnings and Git Shenanigans</h4>
+                    <p>This enabled me to move through directories and navigate the terminal. I also reinforced my wifi and device security in order to prevent being hacked easily. Then I connected my VScode to Github and Microsoft in order to push commits from my local environment to Github.  Allowing me to get those coveted green squares :laughing:.</p><br> 
+                    
+                    <p>The VScode connection to my Microsoft account allows me to remotely pair with other developers. Lastly, I learned the lingo, ie directory = file. I decided to pack it up for the day and throw the laptop out the window when I discovered I don’t have Git downloaded on my local computer.</p>
+                    <img src="https://media.giphy.com/media/gHhz5ZqkY8rzyWUiKw/giphy.gif">
+                </div>
+            </article>
+            
+            <article>
+                <h2 class="title">Commit Early & Often</h2>
+                <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v2cv1prrcbacnum9z8r9.jpg" alt="man with head in hands"
+                    width="100%">
+                <div class='byline'>
+                    <h3>Published</h3>
+                    <p>26 July 2022</p>
+                </div>
+                <div class="post">
+                <p>Today started with debugging git error from yesterday.  I did this by checking the logs. Inside the log discovered I need to insert the information below using the following commands:</p><br>
+                <p>git config --global user.email "[you@example.com](mailto:you@example.com)"</p><br>
+                <p>git config --global [user.name](http://user.name/) "Your Name"</p><br>
+                <p>Miraculously this worked!  This was my first foray into deciphering the information to find what is relevant to the problem and then researching and applying the solution.  i.e.: googling the whole error message :sweat: .  So, now I know what debugging is and how to do it :laughing:
+                    </p><br>
+                <p>Despite my plans for the day, this led to looking into the base differences between Git and Github.  Git is how I manage my code locally and Github is an application that moves the code from my local device, online.   From there I went down the Git rabbit hole, I quickly realized how expansive Github is.  I learned that while I am curious, I am not THAT curious…it works, imma move on.  I ended up renaming my default branch from Master to Main, how I found myself there, I don't know, I started with rabbit hole right?</p>
 
-            <img src="https://c.tenor.com/ZCuoWKH4emgAAAAC/hole-bugs-bunny.gif)">
-            </div>
-        </article>
+                <h4>Rabbit Hole Diaries</h4>
+                <img src="https://c.tenor.com/8z-Upx6ev6cAAAAM/running-home.gif">
 
+                <p>Task: Move files from one directory to another.</p><br>
+
+                <p>Result: …cd, ls, cd, ls, cd, ls….google…this looks good…cp -r…yup, that's it…cd, ls, cd, ls….where are the files?  whelp, I lost the files….time to wrap it up….wait, why are they on my desktop…:boom:</p><br>
+
+                <p>    well, now that I found the files… I quickly exited the terminal and dragged and dropped the files where I need them to be. </p>
+                <img src="https://thumbs.gfycat.com/GeneralScentedIndianglassfish-size_restricted.gif">
+
+
+                <h4>Back on Track</h4>
+
+                <p>Now, I was finally able to move the files from my local device to Github.</p>
+                <ol>
+                    <li>created the repo in github with .readme</li>
+                    <li>cloned repo to local directory (git clone xyz)</li>
+                    <li>made changes in local directory </li>
+                    <li>pushed changes to Github</li>
+                        <ul>
+                            <li>committed local code to GitHub through the command line. did this by using:</li>
+                                <ol>
+                                    <li>git init - b main (Initialize the local directory as a Git repository.)</li>
+                                    <li>git add . (gets files ready to move)</li>
+                                    <li>git commit -m “first commit” (adding files to local git)</li>
+                                    <li>git push origin main (pushes files to github)</li>
+                                </ol>
+                        </ul>
+                </ol>
+
+                <p>Whew, what a day…I think I'm going to roll over the rest of the to-do list to tomorrow.</p>
+
+                <img src="https://c.tenor.com/ZCuoWKH4emgAAAAC/hole-bugs-bunny.gif)">
+                </div>
+            </article>
+            </main>
+        </div>
   </body>
   </html>      
