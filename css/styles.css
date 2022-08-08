@@ -23,5 +23,20 @@ body,html{
     font-size: 48px;
 }
 
-article{
+.byline{
+  font-size: 10px;
+  line-height: 1.6em;
 }
+
+.article {
+  font-size: 15px;
+  line-height: 1.6em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.article h2 {
+    font-size: 26px;
+    padding-bottom: 1rem;
+    padding-top: 1em;
+  }
