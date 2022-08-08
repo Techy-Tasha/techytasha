@@ -19,20 +19,41 @@ body,html{
 }
 
 .blog{
+    font-size: 50px;
+    background-color: bisque;
+    height:400px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
     text-align: center;
-    font-size: 48px;
+    font-size: 30px;
+}
+
+img{
+    display:block;
+    margin:auto;
+}
+
+.main{
 }
 
 .byline{
   font-size: 10px;
   line-height: 1.6em;
+  display:inline;
 }
 
-.article {
+.post{
+}
+
+article {
   font-size: 15px;
   line-height: 1.6em;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 100px 400px;
 }
 
 .article h2 {
